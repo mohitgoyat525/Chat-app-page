@@ -23,6 +23,7 @@
     line-height: 16.41px;
     text-align: right;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 h4 {
@@ -293,6 +294,7 @@ h3 {
     line-height: 21.02px;
     text-align: left;
     color: #2B353EB2;
+    text-decoration: none;
 }
 
 .copy {
