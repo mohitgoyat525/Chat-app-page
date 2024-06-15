@@ -425,4 +425,16 @@ footer {
   .copy{
     margin-top: 20px;
   }
+h2{
+    text-align: center;
+}
+.chat{
+    text-align: center;
+}
+.btns2{
+    margin-left: 70px;
+}
+.line{
+    margin-left: 67px;
+}
 }
