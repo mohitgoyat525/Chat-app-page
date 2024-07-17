@@ -45,6 +45,9 @@ h4 {
     text-align: left;
     color: #FFFFFF;
 }
+.heading{
+    max-width:499px;
+}
 
 .btn1 {
     width: 111px;
@@ -62,13 +65,15 @@ h4 {
     text-align: center;
     background: #1E71FF;
     border: 1px solid #FFFFFF;
+    transition: all 300ms linear;
+    
     
 }
 .btn1:hover:hover {
     color: #1E71FF;
     background: #ffffff;
 }
-h2 {
+h2{
     font-family: "Poppins", sans-serif;
     font-size: 75px;
     font-weight: 600;
@@ -95,7 +100,7 @@ h2 {
 }
 
 .btn2 {
-
+    transition: all 300ms linear;
     width: 172px;
     height: 50px;
     top: 587px;
@@ -168,6 +173,9 @@ h3 {
     line-height: 29.11px;
     text-align: center;
     color: #2B353EB2;
+    max-width: 566px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bar-img {
@@ -301,6 +309,9 @@ h3 {
     color: #2B353EB2;
     text-decoration: none;
 }
+.fot-bar:hover{
+    text-decoration: underline;
+}
 
 .copy {
     margin-top: 253px;
@@ -371,7 +382,9 @@ footer {
     .chat{
         text-align: center;
     }
-
+    .heading{
+        font-size: 55px;
+    }
 }
 
 @media (max-width:992px) {
@@ -448,5 +461,11 @@ h2{
 }
 .line{
     margin-left: 67px;
+}
+.heading{
+    font-size: 45px;
+}
+.price{
+    padding-left: 20px;
 }
 }
