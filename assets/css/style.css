@@ -180,6 +180,10 @@ h3 {
 
 .bar-img {
     left: 0%;
+ top: 5%;
+ bottom: 25%;
+   
+    
 }
 
 .line {
@@ -243,6 +247,7 @@ h3 {
     line-height: 29.11px;
     text-align: left;
     color: #2B353EB2;
+    padding-left: 24px;
 }
 
 .rate {
