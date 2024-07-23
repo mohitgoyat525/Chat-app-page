@@ -296,7 +296,7 @@ h3 {
     color: #2B353E;
 }
 
-.fot-text {
+.fot-heading {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -305,7 +305,7 @@ h3 {
     color: #2B353EB2;
 }
 
-.fot-bar {
+.fot-links {
     font-family: "Roboto", sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -313,12 +313,13 @@ h3 {
     text-align: left;
     color: #2B353EB2;
     text-decoration: none;
+    transition: all 300ms linear;
 }
-.fot-bar:hover{
+.fot-links:hover{
     text-decoration: underline;
 }
 
-.copy {
+.copyright {
     margin-top: 253px;
     font-family: "Roboto", sans-serif;
     font-size: 13px;
@@ -329,8 +330,11 @@ h3 {
 
 }
 
-footer {
+.footer-section{
     margin-top: 90px;
+}
+.cursor{
+    cursor: pointer;
 }
 
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
@@ -452,7 +456,7 @@ footer {
         padding-left: 12px;
         padding-right: 12px;
   }
-  .copy{
+  .copyright{
     margin-top: 20px;
   }
 h2{
