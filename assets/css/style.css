@@ -263,78 +263,73 @@ h3 {
     margin-left: 100px;
 }
 
-.mt180 {
-    margin-top: 180px;
-}
 
-.fot-logo {
-    font-family: "Poppins", sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 30.16px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: #1E71FF;
-}
-
-.fot-span {
-    font-family: "Poppins", sans-serif;
-    font-size: 26px;
-    font-weight: 200;
-    line-height: 30.16px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: #1E71FF;
-}
-
-.help {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29.11px;
-    text-align: left;
-    color: #2B353E;
-}
-
-.fot-heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24.25px;
-    text-align: left;
-    color: #2B353EB2;
-}
-
-.fot-links {
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21.02px;
-    text-align: left;
-    color: #2B353EB2;
-    text-decoration: none;
-    transition: all 300ms linear;
-}
-.fot-links:hover{
-    text-decoration: underline;
-}
-
-.copyright {
-    margin-top: 253px;
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21.02px;
-    text-align: left;
-    color: #2B353EB2;
-
-}
-
-.footer-section{
-    margin-top: 90px;
-}
 .cursor{
     cursor: pointer;
+}
+.footer {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .pos-unsets {
+    position: unset !important;
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+  .colour {
+    font-weight: bold;
+    color: black;
+  }
+.footer-fonts {
+  color: #6b7278;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.25px;
+}
+
+.colour {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.color {
+  color: rgba(43, 53, 62, 0.7);
+}
+
+.left-right {
+  bottom: 30px;
+  left: 130px;
+  color: #6b7278;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21.02px;
+  text-align: left;
+}
+
+.app-chat {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30.16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1e71ff;
+  letter-spacing: -2%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.appp {
+  font-size: 26px;
+
+  text-align: left;
+  color: #1e71ff;
+
+  font-weight: 200;
 }
 
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
@@ -405,7 +400,6 @@ h3 {
     .perfect {
         font-size: 40px;
     }
-
 
 }
 
